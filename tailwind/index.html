@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    <header class="container mx-auto pg-lib-item">
+        <nav class="flex items-center flex-wrap px-4 py-5 bg-white" data-pg-class-style="navbar"
+            data-pg-class-style-inline=" bg-white"> <a href="#"
+                class="text-blue-600 text-xl font-medium uppercase hover:text-blue-800 mr-auto"> Логотип </a>
+            <button class="hover:bg-blue-600 hover:text-white px-3 py-2 rounded text-blue-600 lg:hidden"
+                data-name="nav-toggler"
+                data-pg-ia="{&quot;l&quot;:[{&quot;name&quot;:&quot;NabMenuToggler&quot;,&quot;trg&quot;:&quot;click&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;^nav|[data-name=nav-menu]&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;class.remove&quot;:&quot;hidden&quot;}}]},{&quot;t&quot;:&quot;#gt# span:nth-of-type(1)&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.2,&quot;l&quot;:{&quot;rotationZ&quot;:45,&quot;yPercent&quot;:300}}]},{&quot;t&quot;:&quot;#gt# span:nth-of-type(2)&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.2,&quot;l&quot;:{&quot;autoAlpha&quot;:0}}]},{&quot;t&quot;:&quot;#gt# span:nth-of-type(3)&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.2,&quot;l&quot;:{&quot;rotationZ&quot;:-45,&quot;yPercent&quot;:-300}}]}]},&quot;pdef&quot;:&quot;true&quot;,&quot;trev&quot;:&quot;true&quot;}]}"
+                data-pg-ia-apply="$nav [data-name=nav-toggler]"> <span
+                    class="block border-b-2 border-current my-1 w-6"></span> <span
+                    class="block border-b-2 border-current my-1 w-6"></span> <span
+                    class="block border-b-2 border-current my-1 w-6"></span>
+            </button>
+            <div class="lg:flex lg:space-x-4 lg:space-y-0 lg:w-auto space-y-2 w-full hidden lg:items-center"
+                data-pg-class-style="navbar_section" data-name="nav-menu">
+                <div class="flex flex-col lg:flex-row" data-pg-class-style="navbar_links"> <a href="#"
+                        class="font-light hover:text-blue-600 lg:px-4 uppercase py-2 px-0"
+                        data-pg-class-style="navbar_link">Акции</a> <a href="#"
+                        class="font-light hover:text-blue-600 lg:px-4 uppercase py-2 px-0"
+                        data-pg-class-style="navbar_link">Поиск</a> <a href="#"
+                        class="font-light hover:text-blue-600 lg:px-4 uppercase py-2 px-0"
+                        data-pg-class-style="navbar_link">Управление бронированием</a>
+                </div> <a href="#"
+                    class="bg-blue-600 font-light inline-block px-5 py-2 rounded text-white hover:bg-blue-700 uppercase"
+                    data-pg-class-style="navbar_button">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="text-center mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Raw Denim
+                    Heirloom Man Braid</h1>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Blue bottle crucifix vinyl post-ironic
+                    four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.
+                </p>
+            </div>
+            <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium">Выбрать дату и время съемки</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium">Выбрать количество участников</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium">Выбрать желаемую локацию для съемки, соответствующую
+                            условиям выше</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium">Зарезервировать конкретные зоны на территории выбранной
+                            локации</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium">Определить перечень дополнительных услуг</span>
+                    </div>
+                </div>
+                <div class="p-2 sm:w-1/2 w-full">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="title-font font-medium">Оформить заказ</span>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Оформить
+                заказ</button>
+        </div>
+    </section>
+    <section class="pg-lib-item relative text-gray-500">
+        <div class="container mx-auto px-4 py-12">
+            <div class="flex flex-wrap -mx-4">
+                <div class="mx-auto px-4 text-center w-full lg:w-8/12">
+
+                    <h1 class="font-extrabold mb-4 text-3xl text-gray-800">Девиз компании «Фокус»: Сделай жизнь ярче!
+                    </h1>
+                    <p class="font-light mb-6 text-sl">Главная цель компании – сохранить самые яркие моменты жизни
+                        клиентов на долгие годы. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="swiper mySwiper container mx-auto">
+        <h1 class="font-extrabold text-3xl text-gray-800 text-center mb-4">Отзывы</h1>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <section class="text-gray-600 body-font">
+                    <div class="container px-5 py-24 mx-auto">
+                        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                                <path
+                                    d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                                </path>
+                            </svg>
+                            <p class="leading-relaxed text-lg">Спасибо большое! Локация "Черная жемчужина" просто супер!
+                                Все в бурных эмоциях, фото получились просто огонь!</p>
+                            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+                            <h2 class="text-gray-900 font-medium title-font tracking-wider text-2xl">Алина</h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-slide">
+                <section class="text-gray-600 body-font">
+                    <div class="container px-5 py-24 mx-auto">
+                        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                                <path
+                                    d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                                </path>
+                            </svg>
+                            <p class="leading-relaxed text-lg">Долго думала как отпразновать годовщину свадьбы. Увидела
+                                фото ваших локаций и влюбилась!
+                                Отлично провели время с мужем, сделали кучу фото для инстаграмма и даже распечатали
+                                несколько на память)</p>
+                            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+                            <h2 class="text-gray-900 font-medium title-font tracking-wider text-2xl">Марина</h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-slide">
+                <section class="text-gray-600 body-font">
+                    <div class="container px-5 py-24 mx-auto">
+                        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                                <path
+                                    d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                                </path>
+                            </svg>
+                            <p class="leading-relaxed text-lg">Всё очень понравилось.
+                                Воспользовались с девочками услугами вашего фотографа Ильи, теперь фотаемся только у
+                                него!</p>
+                            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+                            <h2 class="text-gray-900 font-medium title-font tracking-wider text-2xl">Алена и Ко</h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-slide">
+                <section class="text-gray-600 body-font">
+                    <div class="container px-5 py-24 mx-auto">
+                        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                                <path
+                                    d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                                </path>
+                            </svg>
+                            <p class="leading-relaxed text-lg">Уже не первый раз устраиваю себе праздник, организуя
+                                фотосессию в ваших локациях. Не дорого, а эмоций на весь день</p>
+                            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+                            <h2 class="text-gray-900 font-medium title-font tracking-wider text-2xl">Наталия
+                            </h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-buttons"></div>
+        <div class="swiper-button-prev swiper-buttons"></div>
+    </div>
+    <section class="bg-gray-50 pg-lib-item py-24 text-gray-500">
+        <div class="container mx-auto px-4">
+            <div class="mx-auto md:w-9/12 xl:w-5/12">
+                <div class="bg-white px-6 py-12 w-full sm:px-12 lg:py-16">
+                    <h2 class="font-medium mb-2 text-3xl text-gray-900 text-center">Поиск</h2>
+                    <p class="mb-6">Use this awesome form to sign in users.</p>
+                    <form>
+                        <div class="flex mb-4 text-sm">
+
+                            <input type="text" class="block border border-gray-300 flex-1 px-3 py-2 rounded-r-md w-full"
+                                placeholder="Регион" aria-label="Email" required="">
+                        </div>
+                        <div class="flex mb-4 text-sm">
+                            <input type="datetime-local"
+                                class="block border border-gray-300 flex-1 px-3 py-2 rounded-r-md w-full" required="">
+                        </div>
+                        <div class="flex mb-4 text-sm">
+                            <input type="number"
+                                class="block border border-gray-300 flex-1 px-3 py-2 rounded-r-md w-full"
+                                placeholder="Количество участников" aria-label="Password" required="">
+                        </div>
+                        <button type="submit"
+                            class="bg-blue-600 font-medium hover:bg-blue-700 inline-block px-6 py-2 rounded-md text-center text-white w-full">Поиск</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">Скидки</h1>
+            </div>
+            <div class="flex flex-wrap justify-center -m-4">
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                            src="./media/images/promotions/promotion1.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Скидка до 60%. За заказ зоны (до 5
+                                человек) в локации «Черная жемчужина»</h2>
+                            <p class="my-4">Устали от городского шума, хотите провести фотосессию за городом в
+                                живописной локации? Заказывайте место в локации «Черная жемчужина».
+                                Здесь вас ждет настоящая пиратская шхуна с настоящими пиратами! Фото будут просто огонь!
+                            </p>
+
+                        </div>
+                    </div>
+                    <button type="submit"
+                            class="bg-blue-600 font-medium hover:bg-blue-700 inline-block px-6 py-2 rounded-md text-center text-white w-full">Читать далее</button>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                            src="./media/images/promotions/promotion2.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Скидка до 51% при заказе услуг
+                                фотографа и использовании реквизита локации. Уютное место для организации детской
+                                фото-видео съемки «Поляна сказок»</h2>
+                            <p class="my-4">Локация «Поляна сказок» расположена в живописной загородной местности на
+                                берегу чистого озера. Есть места для организации фотосъемок как на открытом воздухе, так
+                                и под навесом с профессиональным оборудованием и реквизитом.
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <button type="submit"
+                            class="bg-blue-600 font-medium hover:bg-blue-700 inline-block px-6 py-2 rounded-md text-center text-white w-full">Читать далее</button>
+                </div>
+                <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="h-full flex flex-col items-center text-center">
+                        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                            src="./media/images/promotions/promotion3.jpg">
+                        <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Скидка до 25%. Закажи праздник "Под ключ"</h2>
+                            <p class="my-4">При выборе локации для 5 человек и больше, а также при заказе всех дополнительных услуг можно очень неплохо сэкономить!
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <button type="submit"
+                            class="bg-blue-600 font-medium hover:bg-blue-700 inline-block px-6 py-2 rounded-md text-center text-white w-full">Читать далее</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-50 pg-lib-item py-24 text-gray-500">
+        <div class="container mx-auto px-4">
+            <div class="mx-auto md:w-9/12 xl:w-5/12">
+                <div class="bg-white px-6 py-12 w-full sm:px-12 lg:py-16">
+                    <h2 class="font-medium mb-10 text-2xl text-gray-900 text-center">Подпишись на наши закрытые акции</h2>
+                    <form> 
+                        <div class="flex mb-4 text-sm">
+                            <span class="bg-gray-50 border border-gray-300 border-r-0 inline-flex items-center px-3 py-2 rounded-l-md text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"></path>
+                                    </g>
+                                </svg></span>
+                            <input type="email" class="block border border-gray-300 flex-1 px-3 py-2 rounded-r-md w-full" placeholder="Email" aria-label="Email" required="">
+                        </div>
+                        <div class="flex mb-4 text-sm">
+                            <span class="bg-gray-50 border border-gray-300 border-r-0 inline-flex items-center px-3 py-2 rounded-l-md text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path d="M10.758 11.828l7.849-7.849 1.414 1.414-1.414 1.415 2.474 2.474-1.414 1.415-2.475-2.475-1.414 1.414 2.121 2.121-1.414 1.415-2.121-2.122-2.192 2.192a5.002 5.002 0 0 1-7.708 6.294 5 5 0 0 1 6.294-7.708zm-.637 6.293A3 3 0 1 0 5.88 13.88a3 3 0 0 0 4.242 4.242z"></path>
+                                    </g>
+                                </svg></span>
+                            <input type="tel" class="block border border-gray-300 flex-1 px-3 py-2 rounded-r-md w-full" placeholder="телефон" aria-label="Password" required="">
+                        </div>                                             
+                        
+                        <button type="submit" class="bg-blue-600 font-medium hover:bg-blue-700 inline-block px-6 py-2 rounded-md text-center text-white w-full">Подписаться</button>                                             
+                    </form>
+                </div>
+            </div>                                 
+        </div>
+    </section>
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">8 (800) 333-30-30</span>
+          </a>
+          <a href="#" class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Home
+          </a>
+          <a href="#" class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Login
+          </a>
+          <a href="#" class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Sign up
+          </a>
+          <a href="#" class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Contact
+          </a>
+          <a href="#" class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">News
+          </a>
+          <a href="#" class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Return
+          </a>
+          <a href="#" class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Feedback
+          </a>
+          
+        </div>
+      </footer>
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
